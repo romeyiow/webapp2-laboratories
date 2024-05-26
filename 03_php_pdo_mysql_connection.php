@@ -13,7 +13,7 @@ try {
     $pdo = new PDO($dsn, $user, $password, $options);
 
     if ($pdo) {
-        echo "Connected successfully";
+        echo "Connected successfully!";
     }
 } catch (PDOException $e) {
     echo $e->getMessage();
